@@ -1,0 +1,41 @@
+.subheading {
+  font-weight: 600;
+}
+
+.date {
+  min-width: 18rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.nav-moj{
+  background-color:white;
+}
+
+.nove{
+  margin-left: 45%;
+}
+
+.icona{
+  margin-left: 15%;
+}
+
+.navbar-nag{
+  color: red;
+  text-align: center;
+}
+
+.nav-itej {
+  list-style-type: none;
+  
+}
+
+.nav-itej a {
+  color: red;
+}
+
+
