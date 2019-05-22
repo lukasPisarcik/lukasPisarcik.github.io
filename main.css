@@ -35,7 +35,26 @@ body {
 }
 
 .nav-itej a {
-  color: red;
+  color: rgb(0, 0, 0);
+}
+
+.about-me{
+  max-width: 40%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  text-align: justify;
+
+
+}
+
+.first{
+  margin-top: 100%;
+}
+
+h1{
+  color: purple;
+  
+  font-family:  'Montserrat', sans-serif;
 }
 
 
