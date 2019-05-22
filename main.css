@@ -26,11 +26,12 @@ body {
 
 .navbar-nag{
   color: red;
-  text-align: center;
+  text-align: left;
 }
 
 .nav-itej {
   list-style-type: none;
+  margin-top: 20px;
   
 }
 
@@ -40,7 +41,6 @@ body {
 
 .about-me{
   max-width: 40%;
-  margin-top: 10%;
   margin-bottom: 10%;
   text-align: justify;
 
@@ -53,8 +53,32 @@ body {
 
 h1{
   color: purple;
-  
+  margin-bottom: 10%;
   font-family:  'Montserrat', sans-serif;
 }
 
+.Experience-moje{
+  max-width: 40%;
+  text-align: justify;
+  margin-left: 60%;
+
+
+}
+
+.experience-hlavne{
+  max-width: 100%;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  
+}
+
+.education{
+  text-align: center;
+  width: 100%;
+  background-color: rgb(224, 224, 224);
+}
+
+.container {
+  width: 100%;
+}
 
