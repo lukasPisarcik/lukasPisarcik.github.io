@@ -17,7 +17,7 @@ function handleSubmit(event) {
     from: email
   }
 
-  
+
   $.ajax({
     type: "POST",
     url: "https://stored.azurewebsites.net/api/mail",
@@ -36,3 +36,5 @@ function handleSubmit(event) {
       alert("Chyba pri odosielaní správy");
     });
 }
+
+
