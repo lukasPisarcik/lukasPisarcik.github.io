@@ -17,6 +17,7 @@ function handleSubmit(event) {
     from: email
   }
 
+  
   $.ajax({
     type: "POST",
     url: "https://stored.azurewebsites.net/api/mail",
