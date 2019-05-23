@@ -7,8 +7,31 @@ $(document).ready(function () {
 function handleSubmit(event) {
   event.preventDefault();
 
-  console.log('submit');
+  var msg = $('#msg').val();
+  var email = $('#email').val();
+
+  var data = {
+    to: "luky.pisarcik@gmail.com",
+    subject: "CV",
+    body: msg,
+    from: email
+  }
+
+  $.ajax({
+    type: "POST",
+    url: "https://stored.azurewebsites.net/api/mail",
+    headers: {
+      "Authorization": 'Bearer ' + token
+    },
+    data: JSON.stringify(data),
+    contentType: "application/json"
+  })
+    .done(function () {
+      console.log('OK');
+      alert("Správa bola úspešne odoslaná");
+    })
+    .fail(function (error) {
+      console.log(error);
+      alert("Chyba pri odosielaní správy");
+    });
 }
-
-
-
