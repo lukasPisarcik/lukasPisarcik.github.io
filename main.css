@@ -88,27 +88,58 @@ h1{
   color: #db4e92;
   margin-bottom: 10%;
   font-family:  'Montserrat', sans-serif;
+  font-size: 25pt;
+}
+
+h2{
+  color: #411a70;
+  font-size: 18pt;
+  font-weight: 600;
 }
 
 .Experience-moje{
   max-width: 40%;
-  text-align: justify;
-  margin-left: 60%;
+  text-align: left;
+  position: absolute;
+}
 
-
+.exp-img{
+  width: 100%;
+  text-align: right;
+  float: left;
 }
 
 .experience-hlavne{
   max-width: 100%;
-  margin-top: 20%;
-  margin-bottom: 20%;
+  margin-top: 5%;
+  
+  
+}
+
+.exp-text {
+  width: 100%;
+  margin-top: 70%;
+  margin-left: 30%;
   
 }
 
 .education{
-  text-align: center;
+  text-align: left;
   width: 100%;
-  background-color: rgb(224, 224, 224);
+  
+}
+
+.edu-text{
+  width: 40%;
+  margin-top: 70%;
+  margin-left: 50%;
+  position: absolute;
+}
+
+.edu-img{
+  width: 100%;
+  text-align: left;
+  float: right;
 }
 
 .container {
